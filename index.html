@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
+[ yes] Two External Links
+[ yes] Table
 [  ] Three CSS Rules
-[  ] Three Images
+[yes] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -14,214 +14,314 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: rgb(213, 229, 237);
+      }
+      h1 {
+        color: rgb(14, 32, 87);
+      }
+      h4 {
+        color: rgb(77, 23, 27);
+      }
+      th {
+        background-color: lavender;
+        font-family: "Courier New";
+        text-align: center;
+      }
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-    
-    th{
-      background-color: lavender;
-      font-family: "Courier New";
-      text-align: center;
-      
-    }
-    
-    
-    
-    
-  </style>
-</head>
+      h3:hover {
+        background-color: Orange;
+        color: white;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <h1>Ximena's Recipe Book</h1>
 
-  <h1>Ximena's Recipe Book</h1>
+    <h2>Contents:</h2>
 
-  <h2>Contents:</h2>
+    <ol>
+      <li><a href="">Recipe #1</a></li>
+      <li><a href="?">Recipe #2</a></li>
+      <li><a href="?">Recipe #3</a></li>
+    </ol>
 
-  <ol>
-    <li><a href="">Recipe #1</a></li>
-     <li><a href="?">Recipe #2</a></li>
-     <li><a href="?">Recipe #3</a></li>
-  </ol>
+    <h2 id="?">Recipe #1</h2>
 
-  <h2 id="?">Recipe #1</h2>
+    <img
+      src="https://thealmondeater.com/wp-content/uploads/2022/05/cajun-shrimp-alfredo_web-5.jpg"
+      alt="Shrimp Fettucini Alfredo"
+      width="210"
+    />
+    <h3>Cajun Shrimp Fettucini Alfredo</h3>
 
-  <img
-       src="https://thealmondeater.com/wp-content/uploads/2022/05/cajun-shrimp-alfredo_web-5.jpg"
-       alt="Shrimp Fettucini Alfredo"
-       width="210"
-       >
-  <h3>
-  Cajun Shrimp Fettucini Alfredo
-  </h3>
-  <img
-  
-  <ul>
-    <li>Time: 35 minutes</li>
-    <li>Serves: 1</li>
-  </ul>
+    <ul>
+      <li>Time: 35 minutes</li>
+      <li>Serves: 1</li>
+    </ul>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <td>
-        <ul>
-          <li>Fettucini noodles</li>
-           <li>Cajun Seasoning</li>
-          <li>Shrimp</li>
-          <li>Butter</li>
-          <li>Olive Oil</li>
-          <li>Minced Garlic</li>
-          <li>Salt</li>
-          <li>Parsley</li>
-          <li>Parmesean Cheese</li>
-          <li>Flour</li>
-          <li>Milk</li>
-          <li>Reserved Pasta Water</li>
-        </ul>
-      </td>
-      <td>
-      <ul>
-        <li>8oz</li>
-         <li>1 Tablespoon</li>
-          <li>1 lb medium shrimp peeled and clean</li>
-          <li>4 Tablespoons</li>
-          <li>1 Teaspoon</li>
-          <li>1 Tablespoon</li>
-          <li>1 Teaspoon- or to taste</li>
-          <li>To taste</li>
-          <li>1 Cup grated</li>
-          <li>3 Tablespoons</li>
-          <li>2 Cups</li>
-          <li>2 cups</li>
-        
-        </ul>
-      </td>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="https://www.lecremedelacrumb.com/cajun-shrimp-fettuccine-alfredo-pasta/#wprm-recipe-container-47483">Some recipes websites</a></em></p>
-
-  <img
-       src="https://static01.nyt.com/images/2021/03/24/dining/22Puertoricanrex2-Pescado/merlin_184863111_18544d19-964f-4900-a5be-b1a63c68f66a-superJumbo.jpg"
-       alt="Whole fried Red Snapper"
-       width="320"
-       >
-  <h3>
-    Whole Fried Snapper
-  </h3>
-  
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <td>
-        <ul>
-          <li>Red Snappers</li>
-           <li>Lime Juice</li>
-          <li>Minced Garlic</li>
-          <li>Black Pepper</li>
-          <li>Olive Oil</li>
-          <li>Salt</li>
-          <li>Parsley</li>
-          <li>Flour</li>
-        </ul>
-      </td>
-      <td>
-      <ul>
-        <li>4, make sure they are cleaned</li>
-         <li>4 Tablespoon</li>
-          <li>3 Tablespoons</li>
-          <li>1/4 Teaspoon</li>
-          <li>1/2 Tablespoon</li>
-          <li>1/2 Teaspoon</li>
-          <li>1 Teaspoon</li>
-          <li>2 Tablespoons</li>
-          <li>2 Cups</li>
-        </ul>
-      </td>
-    </tbody>
-  </table>
-  
-  <p><em>Source: <a href="https://belquistwist.com/dominican-fried-red-snapper/">Recipe</a></em></p>
-  
-  <img
-       src="https://i.pinimg.com/736x/77/ba/6d/77ba6d560f72a372e4dfbbbc9fd538b8.jpg"
-       alt="cannoli"
-       width="320"
-       >
-  
-  <h3>
-    Cannoli
-  </h3>
-  
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-    <td>
-      <ul>
-        <li>Flour</li>
-        <li>Sugar</li>
-        <li>Shortening</li>
-        <li>Cinnamon</li>
-        <li>Marsala Wine</li>
-        <li>Water</li>
-        <li>Distilled Vinegar</li>
-        <li>Egg</li>
-        <li>Yolk</li>
-        <li>Egg White</li>
-        <li>Oil</li>
-        <li>Ricotta Cheese</li>
-        <li>Confectioners Sugar</li>
-        <li>Semisweet Chocolate</li>
-        <li>Lemon Zest</li>
-      </ul>
-      </td>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
         <td>
-      <ul>
-        <li>3 Cups</li>
-        <li>1/4 Cup</li>
-        <li>3 Tablespoons</li>
-        <li>1/4 Teaspoon</li>
-        <li>1/2 Cup</li>
-        <li>2 Tablespoons</li>
-        <li>1 Tablespoon</li>
-        <li>1 Large</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1 Quart</li>
-        <li>32 oz Drained</li>
-        <li>1/2 Cup</li>
-        <li>4 oz Chopped</li>
-        <li>1 Teaspoon</li>
-      </ul>
-      </td>
-    </tbody>
-  </table>
-  
-   <p><em>Source: <a href="https://www.allrecipes.com/recipe/88849/cannoli/">Recipe</a></em></p>
-  
-</body>
+          <ul>
+            <li>Fettucini noodles</li>
+            <li>Cajun Seasoning</li>
+            <li>Shrimp</li>
+            <li>Butter</li>
+            <li>Olive Oil</li>
+            <li>Minced Garlic</li>
+            <li>Salt</li>
+            <li>Parsley</li>
+            <li>Parmesean Cheese</li>
+            <li>Flour</li>
+            <li>Milk</li>
+            <li>Reserved Pasta Water</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>8oz</li>
+            <li>1 Tablespoon</li>
+            <li>1 lb medium shrimp peeled and clean</li>
+            <li>4 Tablespoons</li>
+            <li>1 Teaspoon</li>
+            <li>1 Tablespoon</li>
+            <li>1 Teaspoon- or to taste</li>
+            <li>To taste</li>
+            <li>1 Cup grated</li>
+            <li>3 Tablespoons</li>
+            <li>2 Cups</li>
+            <li>2 cups</li>
+          </ul>
+        </td>
+      </tbody>
+    </table>
 
+    <h4>
+      <strong>Step 1:</strong>Cook fettuccine noodles according to package
+      directions. Drain (*Reserve 2 cups pasta water*), toss with a bit of olive
+      oil, and set aside.<br />
+      <strong>Step 2:</strong>In a large skillet melt 1 tablespoon butter. Stir
+      in 1 teaspoon olive oil.<br />
+      <strong>Step 3:</strong>Add shrimp to the skillet and sprinkle Cajun
+      seasoning all over the shrimp, then stir for 4-7 minutes until shrimp is
+      opaque.<br />
+      <strong>Step 4:</strong>Use tongs or a slotted spoon to transfer shrimp to
+      a dish and cover to keep warm.<br />
+      <strong>Step 5:</strong>Without cleaning out the skillet, melt butter over
+      medium heat. Stir in garlic for 1 minute til fragrant.<br />
+      <strong>Step 6:</strong>Stir in flour for 1 minute. Gradually whisk in
+      milk, then reserved pasta water.<br />
+      <strong>Step 7:</strong>Add parmesan cheese and salt and stir until
+      parmesan is dissolved. Taste, add salt and pepper if needed.<br />
+      <strong>Step 8:</strong>Add cooked fettuccine noodles to the skillet and
+      return shrimp to the skillet. Give it a good toss.<br />
+      <strong>Step 9:</strong>Garnish with chopped parsley and additional grated
+      parmesan if desired, and serve.<br />
+    </h4>
+
+    <p>
+      <em
+        >Source:
+        <a
+          href="https://www.lecremedelacrumb.com/cajun-shrimp-fettuccine-alfredo-pasta/#wprm-recipe-container-47483"
+          >Some recipes websites</a
+        ></em
+      >
+    </p>
+
+    <img
+      src="https://static01.nyt.com/images/2021/03/24/dining/22Puertoricanrex2-Pescado/merlin_184863111_18544d19-964f-4900-a5be-b1a63c68f66a-superJumbo.jpg"
+      alt="Whole fried Red Snapper"
+      width="320"
+    />
+    <h3>Whole Fried Snapper</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>
+          <ul>
+            <li>Red Snappers</li>
+            <li>Lime Juice</li>
+            <li>Minced Garlic</li>
+            <li>Black Pepper</li>
+            <li>Olive Oil</li>
+            <li>Salt</li>
+            <li>Parsley</li>
+            <li>Flour</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>4, make sure they are cleaned</li>
+            <li>4 Tablespoon</li>
+            <li>3 Tablespoons</li>
+            <li>1/4 Teaspoon</li>
+            <li>1/2 Tablespoon</li>
+            <li>1/2 Teaspoon</li>
+            <li>1 Teaspoon</li>
+            <li>2 Tablespoons</li>
+            <li>2 Cups</li>
+          </ul>
+        </td>
+      </tbody>
+    </table>
+
+    <h4>
+      <strong>Step 1:</strong>Rinse snappers well with water.<br />
+      <strong>Step 2:</strong>On a cutting board, create 3 deep slits on both
+      sides of the snappers.<br />
+      <strong>Step 3:</strong>Place snappers in a bowl as you go.<br />
+      <strong>Step 4:</strong>When done, we are going to season.<br />
+      Pour lime juice, garlic, pepper, salt, oregano, onion powder and adobo
+      over the fish and mix in well into the fish.<br />
+      <strong>Step 5:</strong>Cover and refrigerate for a minimum of 4 hours but
+      overnight would be preferred. I have even seasoned for 36 hours. The
+      flavors get super into the fish. Yum!<br />
+      <strong>Step 6:</strong>When ready to make, use the largest non-stick
+      frying pan you have. Add enough oil to cover at least 1-1/2 inches of
+      depth. <strong>Step 7:</strong>Heat the skillet for a few minutes over
+      medium heat. In the meantime, dredge the snapper.<br />
+      <strong>Step 8:</strong>Dredge in flour and make sure to get flour into
+      those crevices so they are also nice and crispy.<br />
+      <strong>Step 9:</strong>Fry for a few minutes on the first side but do not
+      turn until it is ready. Just check by lifting a little to make sure the
+      snapper is golden. That is a sign, especially at medium heat that is is
+      ready to be turned over.<br />
+      <strong>Step 10:</strong>Once you turn over, dredge the cooked side with
+      the oil a couple of times to make sure the top stays nice and hot.<br />
+      <strong>Step 11:</strong>Total time should be no longer than 15 minutes
+      for frying. But of course, not all stoves are the same so keep an eye on
+      it the entire time.<br />
+      <strong>Step 12:</strong>Serve with your favorite sides.
+    </h4>
+
+    <p>
+      <em
+        >Source:
+        <a href="https://belquistwist.com/dominican-fried-red-snapper/"
+          >Recipe</a
+        ></em
+      >
+    </p>
+
+    <img
+      src="https://i.pinimg.com/736x/77/ba/6d/77ba6d560f72a372e4dfbbbc9fd538b8.jpg"
+      alt="cannoli"
+      width="320"
+    />
+
+    <h3>Cannoli</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>
+          <ul>
+            <li>Flour</li>
+            <li>Sugar</li>
+            <li>Shortening</li>
+            <li>Cinnamon</li>
+            <li>Marsala Wine</li>
+            <li>Water</li>
+            <li>Distilled Vinegar</li>
+            <li>Egg</li>
+            <li>Yolk</li>
+            <li>Egg White</li>
+            <li>Oil</li>
+            <li>Ricotta Cheese</li>
+            <li>Confectioners Sugar</li>
+            <li>Semisweet Chocolate</li>
+            <li>Lemon Zest</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>3 Cups</li>
+            <li>1/4 Cup</li>
+            <li>3 Tablespoons</li>
+            <li>1/4 Teaspoon</li>
+            <li>1/2 Cup</li>
+            <li>2 Tablespoons</li>
+            <li>1 Tablespoon</li>
+            <li>1 Large</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1 Quart</li>
+            <li>32 oz Drained</li>
+            <li>1/2 Cup</li>
+            <li>4 oz Chopped</li>
+            <li>1 Teaspoon</li>
+          </ul>
+        </td>
+      </tbody>
+    </table>
+    <h4>
+      Step 1: Make shells: Mix flour, sugar, and cinnamon together in a medium
+      bowl. Cut in shortening until crumbly.<br />
+      Step 2: Make a well in the center and add Marsala wine, water, vinegar,
+      egg, and egg yolk.<br />
+      Step 3: Mix with a fork until the dough becomes stiff, then finish
+      kneading it by hand on a clean surface, adding a bit more water if needed
+      for about 10 minutes. <br />Cover with plastic wrap and refrigerate for 1
+      to 2 hours.<br />
+      Step 4: Divide cannoli dough into three balls; flatten each one just
+      enough to get through the pasta machine. Roll a ball of dough through
+      successively thinner settings until you have reached the thinnest setting.
+      Dust lightly with flour if necessary.<br />
+      Step 5: Place the sheet of dough on a lightly floured surface. Using a
+      cutter or large glass, cut out 4 to 5-inch circles.<br />
+      Step 6: Dust the circles with a light coating of flour. This will help you
+      later in removing the shells from the tubes. Roll dough around cannoli
+      tubes, sealing the edge with a bit of egg white. Repeat with remaining
+      dough balls.<br />
+      Step 7: Heat oil in a deep fryer or deep skillet to 375 degrees F (190
+      degrees C).<br />
+      Step 8: Fry shells on the tubes in hot oil, a few at a time, until golden,
+      about 2 to 3 minutes. Use tongs to turn as needed. Remove shells carefully
+      using tongs, and place them on a cooling rack set over paper towels.<br />
+      Step 9: Cool just long enough that you can handle the tubes, then
+      carefully twist the tube to remove the shell. Using a tea towel may help
+      you get a better grip. Wash or wipe off the tubes, and use them for more
+      shells. <br />Cooled shells can be placed in an airtight container and
+      kept for up to 2 months. You should only fill them immediately or up to 1
+      hour before serving.<br />
+      Step 10: Make filling: Mix ricotta cheese and confectioners' sugar
+      together in a large bowl until well combined. Fold in chocolate and lemon
+      zest.<br />
+      Step 11:Transfer mixture into a pastry bag and pipe into shells, filling
+      from the center to one end, then doing the same from the other side. Dust
+      with additional confectioners' sugar to serve, if you like.<br/>
+    </h4>
+    <p>
+      <em
+        >Source:
+        <a href="https://www.allrecipes.com/recipe/88849/cannoli/"
+          >Recipe</a
+        ></em
+      >
+    </p>
+  </body>
 </html>
